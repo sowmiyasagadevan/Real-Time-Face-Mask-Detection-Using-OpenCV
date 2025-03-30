@@ -1,0 +1,4 @@
+# Real-Time-Face-Mask-Detection-Using-OpenCV
+Real-Time Face Mask Detection Using OpenCV
+Project Overview
+The Real-Time Face Mask Detection project is a computer vision-based system that detects whether a person is wearing a face mask using OpenCV and Haar Cascade classifiers. In response to the COVID-19 pandemic, wearing masks has been an essential safety measure to prevent the spread of the virus. This project provides a real-time solution for monitoring mask compliance by analyzing live webcam footage. The system identifies human faces using the Haar cascade classifier for face detection and then examines the mouth region using another Haar cascade model for mouth detection. If the mouth is visible, it indicates that the person is not wearing a mask, and a warning message is displayed. Conversely, if no mouth is detected, the system assumes that a mask is being worn and provides positive feedback.
